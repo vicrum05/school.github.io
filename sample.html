@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		p, a, h1, h2, h3, h4, h5, a {
+			font-family: 'Indie Flower', cursive;
+			color: white;
+		}
+		body {
+			background-color: black;
+		}
+	</style>
+	<title>This is sample showcase</title>
+</head>
+<body>
+	<div class="w3-container w3-padding w3-margin w3-center">
+		<h1 class="w3-container w3-border">The Future Movie Theater</h1>
+	</div>
+	<div class="w3-container w3-padding w3-margin w3-center w3-hide-small w3-hide-medium">
+		<ul class="w3-navbar w3-center">
+			<li class="w3-quarter"><a href="#" class="w3-border">Home</a></li>
+			<li class="w3-quarter"><a href="#" class="w3-border">Theatres</a></li>
+			<li class="w3-quarter"><a href="#" class="w3-border">Ticket</a></li>
+			<li class="w3-quarter"><a href="#" class="w3-border">Contacts</a></li>
+		</ul>
+	</div>
+	<div class="w3-hide-large w3-container w3-border w3-padding w3-center w3-card-2 w3-sidenav w3-animate-top" style="display:none">
+	
+	
+	<div class="w3-container w3-border w3-padding w3-center w3-card-2">
+		<p><a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav">Navigation</a></p>
+		<div class="w3-col s12 m12 l2">
+			Home
+		</div>
+		<div class="w3-col s12 m12 l2">
+			Theatres
+		</div>
+		<div class="w3-col s12 m12 l2">
+			Ticket
+		</div>
+		<div class="w3-col s12 m12 l2">
+			Contacts
+		</div>
+	</div>
+	</div>
+	<div class="w3-container w3-padding w3-margin w3-center w3-hide-large">
+		<span class="w3-container w3-text-white w3-center w3-hide-large w3-opennav w3-xlarge" onclick="w3_open()">&#9776;</span>
+	</div>
+	<div class="w3-center w3-container w3-border w3-padding w3-margin">
+		<img src="images/1.jpg" style="width:100%">
+	</div>
+	<div class=" w3-col s12 m6 l3">
+		<div class="w3-container w3-border w3-padding w3-margin">
+			<h3 class="w3-border-bottom">Welcome</h3>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</div>
+	<div class="w3-col s12 m6 l3">
+		<div class="w3-container w3-border w3-padding w3-margin">
+			<h3 class="w3-border-bottom">Notificatio</h3>
+			<h5 class="w3-border-bottom">New UpComing Movie</h5>
+			<p><strong>Friday, 13 1999</strong></p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	<div class="w3-col s12 m6 l3">
+		<div class="w3-container w3-border w3-padding w3-margin">
+			<h3 class="w3-border-bottom">News</h3>
+			<h5 class="w3-border-bottom">Free Ticket</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	<div class="w3-col s12 m6 l3">
+		<div class="w3-container w3-margin w3-padding w3-border">
+			<form>
+				<input type="text" name="" placeholder="Name">
+				<input type="text" name="" placeholder="Email">
+				<button class="w3-btn w3-border w3-round-jumbo">submit</button>
+				<button class="w3-btn w3-border w3-round-jumbo">cancel</button>
+			</form>
+		</div>
+	</div>
+	<div class="w3-container w3-padding w3-margin w3-border w3-center w3-col s12 m12 l12">
+		<p class="w3-border">This is copyright information</p>
+	</div>
+
+	<!-- Collapsable Navigation Script
+======================================= -->
+<script>
+	function w3_open() {
+	document.getElementsByClassName("w3-sidenav")[0].style.width = "100%";
+	document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+	}
+	function w3_close() {
+	document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+	}
+</script>
+</body>
+</html>
